@@ -229,6 +229,20 @@ body
    margin: 0 0 14px 0;
    line-height: 16px;
 }
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
 #wb_Shape4
 {
    position: absolute;
@@ -273,6 +287,15 @@ body
    width: 361px;
    height: 152px;
    z-index: 6;
+}
+#wb_Image1
+{
+   position: absolute;
+   left: 0px;
+   top: 311px;
+   width: 207px;
+   height: 113px;
+   z-index: 17;
 }
 #wb_Text3
 {
@@ -345,16 +368,6 @@ body
 {
    width: 320px;
    height: 110px;
-}
-#MergedObject1
-{
-   border-width: 0;
-   position: absolute;
-   left: 14px;
-   top: 321px;
-   width: 185px;
-   height: 105px;
-   z-index: 17;
 }
 #Shape6
 {
