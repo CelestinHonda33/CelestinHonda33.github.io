@@ -82,15 +82,18 @@ body
    border-width: 0;
    vertical-align: top;
 }
-#wb_Shape6
+#wb_Image2
 {
-   transform: rotate(0deg);
-   transform-origin: 50% 50%;
+   vertical-align: top;
 }
-#Shape6
+#Image2
 {
    border-width: 0;
-   vertical-align: top;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
 #wb_Shape3
 {
@@ -281,15 +284,6 @@ body
    height: 45px;
    z-index: 8;
 }
-#wb_Shape6
-{
-   position: absolute;
-   left: 23px;
-   top: 24px;
-   width: 361px;
-   height: 152px;
-   z-index: 6;
-}
 #wb_Image1
 {
    position: absolute;
@@ -346,6 +340,15 @@ body
    height: 58px;
    z-index: 11;
 }
+#wb_Image2
+{
+   position: absolute;
+   left: 11px;
+   top: 15px;
+   width: 390px;
+   height: 179px;
+   z-index: 6;
+}
 #Shape4
 {
    width: 540px;
@@ -370,11 +373,6 @@ body
 {
    width: 320px;
    height: 110px;
-}
-#Shape6
-{
-   width: 361px;
-   height: 152px;
 }
 #wb_Text7
 {
@@ -511,14 +509,6 @@ div#container
 {
    left: 0px;
    top: 241px;
-   visibility: hidden;
-   display: none;
-   margin: 0;
-}
-#wb_Shape6
-{
-   left: 23px;
-   top: 24px;
    visibility: hidden;
    display: none;
    margin: 0;
