@@ -26,16 +26,6 @@ body
    border-width: 0;
    vertical-align: top;
 }
-#wb_Shape5
-{
-   transform: rotate(0deg);
-   transform-origin: 50% 50%;
-}
-#Shape5
-{
-   border-width: 0;
-   vertical-align: top;
-}
 #wb_Shape7
 {
    transform: rotate(0deg);
@@ -201,6 +191,16 @@ body
    border-width: 0;
    vertical-align: top;
 }
+#wb_Shape5
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#Shape5
+{
+   border-width: 0;
+   vertical-align: top;
+}
 #wb_Text7 
 {
    background-color: transparent;
@@ -252,16 +252,7 @@ body
    top: 241px;
    width: 540px;
    height: 40px;
-   z-index: 5;
-}
-#wb_Text1
-{
-   position: absolute;
-   left: 41px;
-   top: 102px;
-   width: 291px;
-   height: 29px;
-   z-index: 9;
+   z-index: 4;
 }
 #wb_Shape5
 {
@@ -270,7 +261,16 @@ body
    top: 695px;
    width: 760px;
    height: 52px;
-   z-index: 1;
+   z-index: 14;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 41px;
+   top: 102px;
+   width: 291px;
+   height: 29px;
+   z-index: 8;
 }
 #wb_Text2
 {
@@ -279,7 +279,7 @@ body
    top: 42px;
    width: 340px;
    height: 45px;
-   z-index: 8;
+   z-index: 7;
 }
 #wb_Shape6
 {
@@ -288,7 +288,7 @@ body
    top: 24px;
    width: 361px;
    height: 152px;
-   z-index: 6;
+   z-index: 5;
 }
 #wb_Image1
 {
@@ -306,7 +306,7 @@ body
    top: 252px;
    width: 464px;
    height: 59px;
-   z-index: 12;
+   z-index: 11;
 }
 #wb_Shape7
 {
@@ -315,7 +315,7 @@ body
    top: 0px;
    width: 760px;
    height: 200px;
-   z-index: 2;
+   z-index: 1;
 }
 #wb_Shape10
 {
@@ -335,7 +335,7 @@ body
    width: 320px;
    height: 52px;
    visibility: hidden;
-   z-index: 14;
+   z-index: 13;
 }
 #wb_Text4
 {
@@ -344,12 +344,17 @@ body
    top: 252px;
    width: 197px;
    height: 58px;
-   z-index: 11;
+   z-index: 10;
 }
 #Shape4
 {
    width: 540px;
    height: 40px;
+}
+#Shape5
+{
+   width: 760px;
+   height: 52px;
 }
 #wb_Shape9
 {
@@ -359,12 +364,7 @@ body
    width: 320px;
    height: 40px;
    visibility: hidden;
-   z-index: 10;
-}
-#Shape5
-{
-   width: 760px;
-   height: 52px;
+   z-index: 9;
 }
 #Shape10
 {
@@ -408,7 +408,7 @@ body
    top: 200px;
    width: 220px;
    height: 495px;
-   z-index: 4;
+   z-index: 3;
 }
 #wb_TextMenu1
 {
@@ -427,7 +427,7 @@ body
    top: 200px;
    width: 760px;
    height: 495px;
-   z-index: 3;
+   z-index: 2;
 }
 #wb_TextMenu2
 {
@@ -436,7 +436,7 @@ body
    top: 212px;
    width: 499px;
    height: 21px;
-   z-index: 13;
+   z-index: 12;
 }
 #wb_Shape3
 {
@@ -445,7 +445,7 @@ body
    top: 241px;
    width: 220px;
    height: 40px;
-   z-index: 7;
+   z-index: 6;
 }
 @media only screen and (max-width: 759px)
 {
@@ -459,14 +459,6 @@ div#container
    top: 0px;
    visibility: visible;
    display: inline;
-   margin: 0;
-}
-#wb_Shape5
-{
-   left: 0px;
-   top: 695px;
-   visibility: hidden;
-   display: none;
    margin: 0;
 }
 #wb_Shape7
@@ -634,6 +626,14 @@ div#container
    top: 1084px;
    visibility: visible;
    display: inline;
+   margin: 0;
+}
+#wb_Shape5
+{
+   left: 0px;
+   top: 695px;
+   visibility: hidden;
+   display: none;
    margin: 0;
 }
 #wb_Text7
