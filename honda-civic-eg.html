@@ -88,13 +88,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['formid']) && $_POST['f
 <link href="favicon-16.ico" rel="shortcut icon" type="image/x-icon">
 <link href="favicon-32.ico" rel="shortcut icon" type="image/x-icon">
 <link href="favicon-64.ico" rel="shortcut icon" type="image/x-icon">
-<link href="wb.validation.css" rel="stylesheet" type="text/css">
 <link href="website.css" rel="stylesheet" type="text/css">
 <link href="honda-civic-eg.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
-<script type="text/javascript" src="util.min.js"></script>
-<script type="text/javascript" src="carousel.min.js"></script>
-<script type="text/javascript" src="wb.validation.min.js"></script>
 <link rel="stylesheet" href="magnificpopup/magnific-popup.css" type="text/css">
 <script type="text/javascript" src="magnificpopup/jquery.magnific-popup.min.js"></script>
 <script type="text/javascript">
@@ -104,29 +100,6 @@ function displaylightbox(url, options)
    options.type = 'iframe';
    $.magnificPopup.open(options);
 }
-</script>
-<script type="text/javascript">
-$(document).ready(function()
-{
-   $("#SlideShow1").bootstrapcarousel({interval:3000, ride: true});
-   $("#TextArea1").validate(
-   {
-      required: false,
-      type: 'text',
-      color_text: '#000000',
-      color_hint: '#00FF00',
-      color_error: '#FF0000',
-      color_border: '#808080',
-      nohint: false,
-      font_family: 'Arial',
-      font_size: '13px',
-      position: 'topleft',
-      offsetx: 0,
-      offsety: 0,
-      effect: 'none',
-      error_text: 'Erreur'
-   });
-});
 </script>
 </head>
 <body>
@@ -185,53 +158,10 @@ $(document).ready(function()
 <img src="images/Civic VTi brochure.jpg" id="Picture2" alt="">
 </picture>
 </a>
-<div id="wb_SlideShow1">
-<div id="SlideShow1" class="carousel slide">
-<div class="carousel-inner">
-<div class="carousel-item active">
-<div class="thumbnails">
-<div class="thumbnail">
-<img class="image" src="images/Civic ballons.jpg" alt="" title="">
-</div>
-<div class="thumbnail">
-<img class="image" src="images/Civic brochure 2.jpg" alt="" title="">
-</div>
-</div>
-</div>
-<div class="carousel-item">
-<div class="thumbnails">
-<div class="thumbnail">
-<img class="image" src="images/Civic brochure coffre.jpg" alt="" title="">
-</div>
-<div class="thumbnail">
-<img class="image" src="images/Civic brochure.jpg" alt="" title="">
-</div>
-</div>
-</div>
-<div class="carousel-item">
-<div class="thumbnails">
-<div class="thumbnail">
-<img class="image" src="images/Civic ESi brochure.jpg" alt="" title="">
-</div>
-<div class="thumbnail">
-<img class="image" src="images/civic multicolore.jpg" alt="" title="">
-</div>
-</div>
-</div>
-<div class="carousel-item">
-<div class="thumbnails">
-<div class="thumbnail">
-<img class="image" src="images/Civic SiR-S original.jpg" alt="" title="">
-</div>
-<div class="thumbnail">
-<img class="image" src="images/Civic VTi brochure.jpg" alt="" title="">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<textarea name="TextArea1" id="TextArea1" rows="19" cols="45" spellcheck="false"></textarea>
+<label for="TextArea1" id="Label1">Comments:</label>
+<textarea name="comments" id="TextArea1" rows="8" cols="47" spellcheck="false"></textarea>
+<input type="submit" id="Button1" name="" value="Submit">
+<input type="reset" id="Button2" name="" value="Clear">
 </div>
 <div id="wb_LayoutGrid1">
 <form name="Me_contacter" method="post" action="<?php echo basename(__FILE__); ?>" enctype="multipart/form-data" id="LayoutGrid1">
