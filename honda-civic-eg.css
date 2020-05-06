@@ -54,7 +54,7 @@ body
 #Shape2
 {
    width: 760px;
-   height: 2166px;
+   height: 1598px;
    background-color: #FFFFFF;
    background-image: none;
    border: 0px #000000 solid;
@@ -67,7 +67,7 @@ body
 #Shape1
 {
    width: 220px;
-   height: 2166px;
+   height: 1598px;
    background-color: #E6E6E6;
    background-image: none;
    border: 0px #000000 solid;
@@ -286,75 +286,6 @@ body
    width: 100%;
    height: 100%;
 }
-#wb_Form1
-{
-   background-color: #FBFBFB;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-}
-#Label1
-{
-   border: 0px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: transparent;
-   background-image: none;
-   color :#000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   padding: 4px 4px 4px 4px;
-   margin: 0;
-   text-align: left;
-   vertical-align: top;
-}
-#TextArea1
-{
-   border: 1px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color :#000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   padding: 4px 4px 4px 4px;
-   margin: 0;
-   text-align: left;
-   overflow: auto;
-   resize: none;
-}
-#TextArea1:focus
-{
-   border-color: #66AFE9;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
-   outline: 0;
-}
-#Button1
-{
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   -webkit-appearance: none;
-   margin: 0;
-}
-#Button2
-{
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   -webkit-appearance: none;
-   margin: 0;
-}
 #wb_Shape4
 {
    position: absolute;
@@ -362,7 +293,7 @@ body
    top: 241px;
    width: 540px;
    height: 40px;
-   z-index: 9;
+   z-index: 5;
 }
 #wb_Text1
 {
@@ -371,16 +302,16 @@ body
    top: 102px;
    width: 291px;
    height: 29px;
-   z-index: 13;
+   z-index: 9;
 }
 #wb_Shape5
 {
    position: absolute;
    left: 0px;
-   top: 2366px;
+   top: 1798px;
    width: 760px;
    height: 52px;
-   z-index: 5;
+   z-index: 1;
 }
 #Banner1
 {
@@ -389,7 +320,7 @@ body
    top: 300px;
    width: 533px;
    height: 40px;
-   z-index: 21;
+   z-index: 17;
 }
 #wb_Text2
 {
@@ -398,7 +329,7 @@ body
    top: 42px;
    width: 340px;
    height: 45px;
-   z-index: 12;
+   z-index: 8;
 }
 #wb_Text3
 {
@@ -407,7 +338,7 @@ body
    top: 252px;
    width: 464px;
    height: 19px;
-   z-index: 16;
+   z-index: 12;
 }
 #wb_Shape7
 {
@@ -416,7 +347,7 @@ body
    top: 0px;
    width: 760px;
    height: 200px;
-   z-index: 6;
+   z-index: 2;
 }
 #wb_Shape10
 {
@@ -426,7 +357,7 @@ body
    width: 320px;
    height: 110px;
    visibility: hidden;
-   z-index: 4;
+   z-index: 0;
 }
 #wb_Shape8
 {
@@ -436,7 +367,7 @@ body
    width: 320px;
    height: 52px;
    visibility: hidden;
-   z-index: 18;
+   z-index: 14;
 }
 #wb_Text4
 {
@@ -445,7 +376,7 @@ body
    top: 252px;
    width: 197px;
    height: 58px;
-   z-index: 15;
+   z-index: 11;
 }
 #wb_Image2
 {
@@ -454,7 +385,7 @@ body
    top: 15px;
    width: 390px;
    height: 179px;
-   z-index: 10;
+   z-index: 6;
 }
 #Shape4
 {
@@ -468,7 +399,7 @@ body
    top: 351px;
    width: 464px;
    height: 1338px;
-   z-index: 22;
+   z-index: 18;
 }
 #wb_Shape9
 {
@@ -478,7 +409,7 @@ body
    width: 320px;
    height: 40px;
    visibility: hidden;
-   z-index: 14;
+   z-index: 10;
 }
 #Shape5
 {
@@ -490,15 +421,6 @@ body
    width: 320px;
    height: 110px;
 }
-#TextArea1
-{
-   position: absolute;
-   left: 92px;
-   top: 15px;
-   width: 361px;
-   height: 90px;
-   z-index: 1;
-}
 #wb_Picture1
 {
    position: absolute;
@@ -506,17 +428,17 @@ body
    top: 881px;
    width: 150px;
    height: 103px;
-   z-index: 23;
+   z-index: 19;
 }
 #wb_Text7
 {
    position: absolute;
    left: 0px;
-   top: 2390px;
+   top: 1822px;
    width: 760px;
    height: 28px;
    text-align: center;
-   z-index: 19;
+   z-index: 15;
 }
 #Shape7
 {
@@ -530,7 +452,7 @@ body
    top: 1404px;
    width: 126px;
    height: 87px;
-   z-index: 24;
+   z-index: 20;
 }
 #Shape8
 {
@@ -542,41 +464,14 @@ body
    width: 320px;
    height: 40px;
 }
-#wb_Form1
-{
-   position: absolute;
-   left: 22px;
-   top: 1723px;
-   width: 482px;
-   height: 339px;
-   z-index: 25;
-}
-#Button1
-{
-   position: absolute;
-   left: 92px;
-   top: 120px;
-   width: 96px;
-   height: 25px;
-   z-index: 2;
-}
-#Button2
-{
-   position: absolute;
-   left: 92px;
-   top: 150px;
-   width: 96px;
-   height: 25px;
-   z-index: 3;
-}
 #wb_Shape1
 {
    position: absolute;
    left: 540px;
    top: 200px;
    width: 220px;
-   height: 2166px;
-   z-index: 8;
+   height: 1598px;
+   z-index: 4;
 }
 #wb_TextMenu1
 {
@@ -586,7 +481,7 @@ body
    width: 499px;
    height: 21px;
    visibility: hidden;
-   z-index: 20;
+   z-index: 16;
 }
 #wb_Shape2
 {
@@ -594,18 +489,8 @@ body
    left: 0px;
    top: 200px;
    width: 760px;
-   height: 2166px;
-   z-index: 7;
-}
-#Label1
-{
-   position: absolute;
-   left: 10px;
-   top: 15px;
-   width: 64px;
-   height: 16px;
-   line-height: 16px;
-   z-index: 0;
+   height: 1598px;
+   z-index: 3;
 }
 #wb_TextMenu2
 {
@@ -614,7 +499,7 @@ body
    top: 212px;
    width: 499px;
    height: 21px;
-   z-index: 17;
+   z-index: 13;
 }
 #wb_Shape3
 {
@@ -623,7 +508,7 @@ body
    top: 241px;
    width: 220px;
    height: 40px;
-   z-index: 11;
+   z-index: 7;
 }
 @media only screen and (max-width: 320px)
 {
