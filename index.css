@@ -234,19 +234,18 @@ body
    margin: 0 0 14px 0;
    line-height: 16px;
 }
-#wb_Image1
+#wb_Text5 
 {
-   vertical-align: top;
-}
-#Image1
-{
+   background-color: transparent;
+   background-image: none;
    border: 0px solid #000000;
    padding: 0;
    margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
+   text-align: left;
+}
+#wb_Text5 div
+{
+   text-align: left;
 }
 #wb_Shape4
 {
@@ -283,15 +282,6 @@ body
    width: 340px;
    height: 45px;
    z-index: 8;
-}
-#wb_Image1
-{
-   position: absolute;
-   left: 0px;
-   top: 311px;
-   width: 207px;
-   height: 113px;
-   z-index: 17;
 }
 #wb_Text3
 {
@@ -337,7 +327,7 @@ body
    left: 555px;
    top: 252px;
    width: 197px;
-   height: 58px;
+   height: 71px;
    z-index: 11;
 }
 #wb_Image2
@@ -353,6 +343,15 @@ body
 {
    width: 540px;
    height: 40px;
+}
+#wb_Text5
+{
+   position: absolute;
+   left: 39px;
+   top: 323px;
+   width: 257px;
+   height: 30px;
+   z-index: 17;
 }
 #wb_Shape9
 {
