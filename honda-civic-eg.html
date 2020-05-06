@@ -13,6 +13,7 @@
 <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
 <link rel="stylesheet" href="magnificpopup/magnific-popup.css" type="text/css">
 <script type="text/javascript" src="magnificpopup/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="wwb15.min.js"></script>
 <script type="text/javascript">
 function displaylightbox(url, options)
 {
@@ -20,6 +21,17 @@ function displaylightbox(url, options)
    options.type = 'iframe';
    $.magnificPopup.open(options);
 }
+</script>
+<script type="text/javascript">
+$(document).ready(function()
+{
+   LoadValue('TextArea1', 'local', 0);
+   $("#Form1").submit(function(event)
+   {
+      StoreValue('TextArea1', 'local', 0);
+      return true;
+   });
+});
 </script>
 </head>
 <body>
