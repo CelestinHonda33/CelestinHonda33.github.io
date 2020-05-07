@@ -54,7 +54,7 @@ body
 #Shape2
 {
    width: 760px;
-   height: 1598px;
+   height: 852px;
    background-color: #FFFFFF;
    background-image: none;
    border: 0px #000000 solid;
@@ -67,7 +67,7 @@ body
 #Shape1
 {
    width: 220px;
-   height: 1598px;
+   height: 852px;
    background-color: #E6E6E6;
    background-image: none;
    border: 0px #000000 solid;
@@ -234,6 +234,19 @@ body
    margin: 0 0 14px 0;
    line-height: 16px;
 }
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text5 div
+{
+   text-align: left;
+}
 #Banner1
 {
    background-color: #265A88;
@@ -253,7 +266,7 @@ body
    height: 24px;
    margin: 5px 0px 5px 0px;
 }
-#wb_Text5 
+#wb_Text6 
 {
    background-color: transparent;
    background-image: none;
@@ -262,29 +275,90 @@ body
    margin: 0;
    text-align: left;
 }
-#wb_Text5 div
+#wb_Text6
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 16px;
+}
+#wb_Text6 p, #wb_Text6 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Shape6
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#Shape6
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text8 div
 {
    text-align: left;
 }
-#Picture1
+#wb_IconFont1
 {
-   border: 1px solid #000000;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
    padding: 0;
-   object-fit: scale-down;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
+   vertical-align: top;
 }
-#Picture2
+#wb_IconFont1:hover
 {
-   border: 1px solid #000000;
-   padding: 0;
-   object-fit: scale-down;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#IconFont1
+{
+   height: 36px;
+   width: 49px;
+}
+.IconFont1
+{
+   position: relative;
    left: 0;
    top: 0;
-   width: 100%;
-   height: 100%;
+   display: inline-block;
+   font-family: "Material Icons";
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+}
+.IconFont1:before
+{
+   content: "\e30c";
+}
+#IconFont1 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 36px;
+   line-height: 36px;
+   vertical-align: middle;
+   width: 35px;
+}
+#wb_IconFont1:hover i
+{
+   color: #337AB7;
 }
 #wb_Shape4
 {
@@ -308,19 +382,28 @@ body
 {
    position: absolute;
    left: 0px;
-   top: 1798px;
+   top: 1052px;
    width: 760px;
    height: 52px;
    z-index: 1;
+}
+#wb_Shape6
+{
+   position: absolute;
+   left: 25px;
+   top: 977px;
+   width: 226px;
+   height: 36px;
+   z-index: 20;
 }
 #Banner1
 {
    position: absolute;
    left: 3px;
-   top: 300px;
+   top: 296px;
    width: 533px;
    height: 40px;
-   z-index: 17;
+   z-index: 18;
 }
 #wb_Text2
 {
@@ -395,11 +478,11 @@ body
 #wb_Text5
 {
    position: absolute;
-   left: 40px;
-   top: 351px;
-   width: 464px;
-   height: 1353px;
-   z-index: 18;
+   left: 39px;
+   top: 323px;
+   width: 257px;
+   height: 15px;
+   z-index: 17;
 }
 #wb_Shape9
 {
@@ -421,20 +504,35 @@ body
    width: 320px;
    height: 110px;
 }
-#wb_Picture1
+#Shape6
+{
+   width: 226px;
+   height: 36px;
+}
+#wb_Text6
 {
    position: absolute;
-   left: 352px;
-   top: 875px;
-   width: 150px;
-   height: 103px;
+   left: 22px;
+   top: 357px;
+   width: 482px;
+   height: 678px;
    z-index: 19;
+}
+#wb_IconFont1
+{
+   position: absolute;
+   left: 25px;
+   top: 977px;
+   width: 49px;
+   height: 36px;
+   text-align: center;
+   z-index: 22;
 }
 #wb_Text7
 {
    position: absolute;
    left: 0px;
-   top: 1822px;
+   top: 1076px;
    width: 760px;
    height: 28px;
    text-align: center;
@@ -445,14 +543,14 @@ body
    width: 760px;
    height: 200px;
 }
-#wb_Picture2
+#wb_Text8
 {
    position: absolute;
-   left: 378px;
-   top: 1404px;
-   width: 126px;
-   height: 87px;
-   z-index: 20;
+   left: 74px;
+   top: 987px;
+   width: 177px;
+   height: 15px;
+   z-index: 21;
 }
 #Shape8
 {
@@ -470,7 +568,7 @@ body
    left: 540px;
    top: 200px;
    width: 220px;
-   height: 1598px;
+   height: 852px;
    z-index: 4;
 }
 #wb_TextMenu1
@@ -489,7 +587,7 @@ body
    left: 0px;
    top: 200px;
    width: 760px;
-   height: 1598px;
+   height: 852px;
    z-index: 3;
 }
 #wb_TextMenu2

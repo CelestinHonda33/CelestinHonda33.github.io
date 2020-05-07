@@ -53,22 +53,9 @@ body
 }
 #Shape2
 {
-   width: 760px;
-   height: 1598px;
+   width: 811px;
+   height: 1790px;
    background-color: #FFFFFF;
-   background-image: none;
-   border: 0px #000000 solid;
-}
-#wb_Shape1
-{
-   transform: rotate(0deg);
-   transform-origin: 50% 50%;
-}
-#Shape1
-{
-   width: 220px;
-   height: 1598px;
-   background-color: #E6E6E6;
    background-image: none;
    border: 0px #000000 solid;
 }
@@ -94,19 +81,6 @@ body
    top: 0;
    width: 100%;
    height: 100%;
-}
-#wb_Shape3
-{
-   transform: rotate(0deg);
-   transform-origin: 50% 50%;
-}
-#Shape3
-{
-   width: 220px;
-   height: 40px;
-   background-color: #000000;
-   background-image: none;
-   border: 0px #000000 solid;
 }
 #wb_Text2 
 {
@@ -143,19 +117,6 @@ body
 {
    border-width: 0;
    vertical-align: top;
-}
-#wb_Text4 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text4 div
-{
-   text-align: left;
 }
 #wb_Text3 
 {
@@ -234,26 +195,7 @@ body
    margin: 0 0 14px 0;
    line-height: 16px;
 }
-#Banner1
-{
-   background-color: #265A88;
-   background: linear-gradient(to top, #265A88 0%, #337AB7 100%);
-   border: 1px solid #245580;
-   color: #FFFFFF;
-   font-family: Impact;
-   font-weight: normal;
-   font-size: 24px;
-   text-align: center;
-   text-shadow: 0px 0px 2px rgba(0,0,0,1.00);
-   margin: 0;
-}
-#Banner1 span
-{
-   display: block;
-   height: 24px;
-   margin: 5px 0px 5px 0px;
-}
-#wb_Text5 
+#wb_Text4 
 {
    background-color: transparent;
    background-image: none;
@@ -262,38 +204,18 @@ body
    margin: 0;
    text-align: left;
 }
-#wb_Text5 div
+#wb_Text4 div
 {
    text-align: left;
-}
-#Picture1
-{
-   border: 1px solid #000000;
-   padding: 0;
-   object-fit: scale-down;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#Picture2
-{
-   border: 1px solid #000000;
-   padding: 0;
-   object-fit: scale-down;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
 }
 #wb_Shape4
 {
    position: absolute;
    left: 0px;
    top: 241px;
-   width: 540px;
+   width: 811px;
    height: 40px;
-   z-index: 5;
+   z-index: 4;
 }
 #wb_Text1
 {
@@ -302,25 +224,16 @@ body
    top: 102px;
    width: 291px;
    height: 29px;
-   z-index: 9;
+   z-index: 7;
 }
 #wb_Shape5
 {
    position: absolute;
    left: 0px;
-   top: 1798px;
-   width: 760px;
+   top: 1990px;
+   width: 811px;
    height: 52px;
    z-index: 1;
-}
-#Banner1
-{
-   position: absolute;
-   left: 3px;
-   top: 300px;
-   width: 533px;
-   height: 40px;
-   z-index: 17;
 }
 #wb_Text2
 {
@@ -329,7 +242,7 @@ body
    top: 42px;
    width: 340px;
    height: 45px;
-   z-index: 8;
+   z-index: 6;
 }
 #wb_Text3
 {
@@ -338,14 +251,14 @@ body
    top: 252px;
    width: 464px;
    height: 19px;
-   z-index: 12;
+   z-index: 9;
 }
 #wb_Shape7
 {
    position: absolute;
    left: 0px;
    top: 0px;
-   width: 760px;
+   width: 811px;
    height: 200px;
    z-index: 2;
 }
@@ -359,6 +272,15 @@ body
    visibility: hidden;
    z-index: 0;
 }
+#wb_Text4
+{
+   position: absolute;
+   left: 12px;
+   top: 281px;
+   width: 787px;
+   height: 1632px;
+   z-index: 14;
+}
 #wb_Shape8
 {
    position: absolute;
@@ -367,15 +289,6 @@ body
    width: 320px;
    height: 52px;
    visibility: hidden;
-   z-index: 14;
-}
-#wb_Text4
-{
-   position: absolute;
-   left: 555px;
-   top: 252px;
-   width: 197px;
-   height: 71px;
    z-index: 11;
 }
 #wb_Image2
@@ -385,21 +298,12 @@ body
    top: 15px;
    width: 390px;
    height: 179px;
-   z-index: 6;
+   z-index: 5;
 }
 #Shape4
 {
-   width: 540px;
+   width: 811px;
    height: 40px;
-}
-#wb_Text5
-{
-   position: absolute;
-   left: 40px;
-   top: 351px;
-   width: 464px;
-   height: 1353px;
-   z-index: 18;
 }
 #wb_Shape9
 {
@@ -409,11 +313,11 @@ body
    width: 320px;
    height: 40px;
    visibility: hidden;
-   z-index: 10;
+   z-index: 8;
 }
 #Shape5
 {
-   width: 760px;
+   width: 811px;
    height: 52px;
 }
 #Shape10
@@ -421,38 +325,20 @@ body
    width: 320px;
    height: 110px;
 }
-#wb_Picture1
-{
-   position: absolute;
-   left: 352px;
-   top: 875px;
-   width: 150px;
-   height: 103px;
-   z-index: 19;
-}
 #wb_Text7
 {
    position: absolute;
    left: 0px;
-   top: 1822px;
+   top: 2014px;
    width: 760px;
    height: 28px;
    text-align: center;
-   z-index: 15;
+   z-index: 12;
 }
 #Shape7
 {
-   width: 760px;
+   width: 811px;
    height: 200px;
-}
-#wb_Picture2
-{
-   position: absolute;
-   left: 378px;
-   top: 1404px;
-   width: 126px;
-   height: 87px;
-   z-index: 20;
 }
 #Shape8
 {
@@ -464,15 +350,6 @@ body
    width: 320px;
    height: 40px;
 }
-#wb_Shape1
-{
-   position: absolute;
-   left: 540px;
-   top: 200px;
-   width: 220px;
-   height: 1598px;
-   z-index: 4;
-}
 #wb_TextMenu1
 {
    position: absolute;
@@ -481,15 +358,15 @@ body
    width: 499px;
    height: 21px;
    visibility: hidden;
-   z-index: 16;
+   z-index: 13;
 }
 #wb_Shape2
 {
    position: absolute;
    left: 0px;
    top: 200px;
-   width: 760px;
-   height: 1598px;
+   width: 811px;
+   height: 1790px;
    z-index: 3;
 }
 #wb_TextMenu2
@@ -499,16 +376,7 @@ body
    top: 212px;
    width: 499px;
    height: 21px;
-   z-index: 13;
-}
-#wb_Shape3
-{
-   position: absolute;
-   left: 540px;
-   top: 241px;
-   width: 220px;
-   height: 40px;
-   z-index: 7;
+   z-index: 10;
 }
 @media only screen and (max-width: 320px)
 {
@@ -555,21 +423,6 @@ div#container
    width: 320px;
    height: 974px;
 }
-#wb_Shape1
-{
-   left: 540px;
-   top: 200px;
-   width: 220px;
-   height: 495px;
-   visibility: hidden;
-   display: none;
-   margin: 0;
-}
-#Shape1
-{
-   width: 220px;
-   height: 495px;
-}
 #wb_Shape4
 {
    left: 0px;
@@ -577,21 +430,6 @@ div#container
    visibility: hidden;
    display: none;
    margin: 0;
-}
-#wb_Shape3
-{
-   left: 540px;
-   top: 241px;
-   width: 220px;
-   height: 40px;
-   visibility: hidden;
-   display: none;
-   margin: 0;
-}
-#Shape3
-{
-   width: 220px;
-   height: 40px;
 }
 #wb_Text2
 {
@@ -628,20 +466,6 @@ div#container
    visibility: visible;
    display: inline;
    margin: 0;
-}
-#wb_Text4
-{
-   left: 555px;
-   top: 252px;
-   width: 197px;
-   height: 422px;
-   visibility: hidden;
-   display: none;
-}
-#wb_Text4
-{
-   margin: 0;
-   padding: 0;
 }
 #wb_Text3
 {
